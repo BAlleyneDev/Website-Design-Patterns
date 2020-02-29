@@ -17,9 +17,9 @@ class Home extends PageControllerAbstract{
 	
 	public function run()
 	{
-			$HomeM = new HomeModel();
-			$recomm = $HomeM->getAllRecords();
-	    $this->_tpl->assign('recomm',$recomm);
+		$HomeM = new HomeModel();
+	        $recomm = $HomeM->getAllRecords();
+	        $this->_tpl->assign('recomm',$recomm);
 		$this->_tpl->display();
 	}
 }
