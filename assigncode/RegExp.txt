@@ -1,0 +1,22 @@
+google's api discovery service
+client 
+swagger and oas
+
+watson uwi
+
+if stimuli influence memory and vice versa. Why arrow one way
+
+Password Match
+(?=.*[A-Z])(?=.*\-?)(?=.*[0-9])[\w-]{8,}
+
+
+
+Name Match
+[a-zA-Z\-\.\s]+
+
+[A-Za-z]+([a-zA-Z]+[-]|\.+\s)[^\.\s]*
+
+
+
+Full Name Correct
+^[a-zA-Z]+(([.][^.\-\d_a-zA-Z][^\s]?[a-zA-Z]*)?([\-][^\-\s\d_.][a-zA-Z]*)?)*$
